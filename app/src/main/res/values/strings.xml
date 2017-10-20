@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Looney Tunes</string>
+    <string name="Cabecera_del_menu">Cabecera del menu</string>
+    <string name="Lucas">Lucas</string>
+    <string name="Elmer">Elmer</string>
+    <string name="Lolas">Lolas</string>
+    <string name="dragon_Ball">Dragón Ball</string>
+    <string name="mas_opciones">Más opciones</string>
+    <string name="pokemon">Pokémon</string>
+
+</resources>
