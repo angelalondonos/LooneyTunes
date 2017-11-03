@@ -37,6 +37,9 @@ public class LooneyTunesActivity extends AppCompatActivity implements Navigation
         navView = (NavigationView)findViewById(R.id.navview);
         navView.setItemIconTintList(null);
 
+        HomeFragment homeFragment = new HomeFragment();
+        remplazarFragmento(homeFragment);
+
     }
 
     @Override
@@ -51,8 +54,7 @@ public class LooneyTunesActivity extends AppCompatActivity implements Navigation
 
 
     private void remplazarFragmento(Fragment fragment) {
-        getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
-                fragment).addToBackStack(null).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, fragment).addToBackStack(null).commit();
     }
 
     @Override
