@@ -1,7 +1,6 @@
 package co.edu.uniquindio.android.electiva.looneytunes.Activity;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
@@ -9,11 +8,17 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
+import android.widget.Toast;
 
+import co.edu.uniquindio.android.electiva.looneytunes.Fragments.ElmerFragment;
 import co.edu.uniquindio.android.electiva.looneytunes.Fragments.HomeFragment;
+import co.edu.uniquindio.android.electiva.looneytunes.Fragments.LolasFragment;
+import co.edu.uniquindio.android.electiva.looneytunes.Fragments.LucasFragment;
 import co.edu.uniquindio.android.electiva.looneytunes.R;
 
 /**
+ * Actividad principal
+ *
  * @author Angela Londoño
  * @author Rodrigo Ramirez
  * @author Cristian Agudelo
@@ -22,7 +27,13 @@ import co.edu.uniquindio.android.electiva.looneytunes.R;
 
 public class LooneyTunesActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
+    /**
+     * creación de un DrawerLayout
+     */
     public DrawerLayout drawerLayout;
+    /**
+     * creación de un NavigationView
+     */
     public NavigationView navView;
 
     @Override
@@ -36,12 +47,18 @@ public class LooneyTunesActivity extends AppCompatActivity implements Navigation
         drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         navView = (NavigationView)findViewById(R.id.navview);
         navView.setItemIconTintList(null);
+        navView.setNavigationItemSelectedListener(this);
 
         HomeFragment homeFragment = new HomeFragment();
         remplazarFragmento(homeFragment);
 
     }
 
+    /**
+     * Método que permite inicar el DrawerLayout
+     * @param item
+     * @return
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
@@ -52,22 +69,32 @@ public class LooneyTunesActivity extends AppCompatActivity implements Navigation
         return super.onOptionsItemSelected(item);
     }
 
-
+    /**
+     * Método que permite cambiar de fragment
+     * @param fragment
+     */
     private void remplazarFragmento(Fragment fragment) {
         getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, fragment).addToBackStack(null).commit();
+
     }
 
+    /**
+     * Método que permite cambiar de opcion en el Navigation Drawer
+     * @param item
+     * @return
+     */
     @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+    public boolean onNavigationItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_seccion_1:
-                remplazarFragmento(new HomeFragment());
+                Toast.makeText(getApplicationContext(), "NavigationDrawer Funciona", Toast.LENGTH_SHORT).show();
+                remplazarFragmento(new LucasFragment());
                 break;
             case R.id.menu_seccion_2:
-                Log.i("NavigationView", "Pulsada seccion 2");
+                remplazarFragmento(new ElmerFragment());
                 break;
             case R.id.menu_seccion_3:
-                Log.i("NavigationView", "Pulsada seccion 3");
+                remplazarFragmento(new LolasFragment());
                 break;
             case R.id.menu_opcion_1:
                 Log.i("NavigationView", "Pulsada opción 1");
