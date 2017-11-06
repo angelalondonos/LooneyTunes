@@ -1,4 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmento_elmer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -8,8 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:contentDescription=""
-        android:src="@drawable/general" />
+        android:src="@drawable/lucas" />
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -37,12 +37,12 @@
                 android:id="@+id/descripcion_de_detalle_personaje"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:maxLines="30"
+                android:textAlignment="center"
+                android:textSize="25dp"
                 android:text="@string/texto_detalle_de_Lucas" />
 
             <Button
-                android:id="@+id/btn_ir_a_trailes"
+                android:id="@+id/btn_ir_a_trailes_lucas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"

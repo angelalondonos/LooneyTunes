@@ -2,8 +2,12 @@ package co.edu.uniquindio.android.electiva.looneytunes.Fragments;
 
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebSettings;
@@ -49,6 +53,34 @@ public class HomeFragment extends Fragment {
 
         displayYoutubeVideo.loadData(frameVideo, "text/html", "utf-8");
         return view;
+    }
+
+    /**
+     * Método que permite verifiar que opcion se eleige en el menu
+     * @param item
+     * @return
+     */
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+        if (id == R.id.cambiar_idioma) {
+        }
+        return super.onOptionsItemSelected(item);
+
+    }
+
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setHasOptionsMenu(true);
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
     }
 
 

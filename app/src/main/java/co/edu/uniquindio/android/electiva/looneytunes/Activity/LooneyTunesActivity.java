@@ -7,8 +7,9 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import co.edu.uniquindio.android.electiva.looneytunes.Fragments.ElmerFragment;
 import co.edu.uniquindio.android.electiva.looneytunes.Fragments.HomeFragment;
@@ -87,7 +88,6 @@ public class LooneyTunesActivity extends AppCompatActivity implements Navigation
     public boolean onNavigationItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_seccion_1:
-                Toast.makeText(getApplicationContext(), "NavigationDrawer Funciona", Toast.LENGTH_SHORT).show();
                 remplazarFragmento(new LucasFragment());
                 break;
             case R.id.menu_seccion_2:
@@ -105,6 +105,19 @@ public class LooneyTunesActivity extends AppCompatActivity implements Navigation
         }
         item.setChecked(true);
         drawerLayout.closeDrawers();
+        return true;
+    }
+
+    /**
+     * Metodo que permite crear el menu de opciones
+     *
+     * @param menu
+     * @return
+     */
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
         return true;
     }
 
