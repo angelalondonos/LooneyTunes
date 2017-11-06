@@ -4,10 +4,13 @@
     <string name="Lucas">LUCAS</string>
     <string name="Elmer">ELMER</string>
     <string name="Lolas">LOLAS</string>
-    <string name="dragon_Ball">Dragón Ball</string>
+    <string name="dragon_Ball">Configuración</string>
     <string name="mas_opciones">Más opciones</string>
-    <string name="pokemon">Pokémon</string>
+    <string name="pokemon">Salir</string>
     <string name="Cambiar_idioma">Cambiar Idioma</string>
+    <string name="bienvenida">BIENVENIDA/O</string>
+
+
 
     <string name="ver_video">Ver Video</string>
     <string name="texto_detalle_de_Lucas"> Es un pato antropomorfico de color negro con pico y patas anaranjadas. Ademas cuenta con un pequeño cuello blanco que lo hace lucir más formal.
@@ -16,5 +19,7 @@
     <string name="texto_detalle_elmer"> ELMER</string>
     <string name="texto_detalle_lola"> LOLA</string>
     <string name="title_activity_elmer">ElmerActivity</string>
+
+    <string name="title_inicio">Looney Tunes es una serie de dibujos animados de la compañía Warner Bros que comenzó su andadura oficialmente en 1930.</string>
 
 </resources>
