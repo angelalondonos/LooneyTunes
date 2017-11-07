@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Looney Tunes</string>
+    <string name="Cabecera_del_menu">Cabecera del menu</string>
+    <string name="Lucas">LUCAS</string>
+    <string name="Elmer">ELMER</string>
+    <string name="Lolas">LOLAS</string>
+    <string name="dragon_Ball">Configuración</string>
+    <string name="mas_opciones">Más opciones</string>
+    <string name="pokemon">Salir</string>
+    <string name="Cambiar_idioma">Cambiar Idioma</string>
+    <string name="bienvenida">BIENVENIDA/O</string>
+
+
+
+    <string name="ver_video">Ver Video</string>
+    <string name="texto_detalle_de_Lucas"> Es un pato antropomorfico de color negro con pico y patas anaranjadas. Ademas cuenta con un pequeño cuello blanco que lo hace lucir más formal.
+       \n \nEn sus primeras apariciones era mucho más pequeño que Porky, pero su aspecto cambio rápidamente hasta volverse del tamaño de Bugs.
+       \n \nInicialmente era alegre y sus planes siempre le salían bien, pero paulatinamente se volvió más molesto, egoísta y cuando está con su eterno rival Bugs Bunny es mucho más malvado, antipático y siempre acaba perdiendo o saliendo dañado.</string>
+    <string name="texto_detalle_elmer"> ELMER</string>
+    <string name="texto_detalle_lola"> LOLA</string>
+    <string name="title_activity_elmer">ElmerActivity</string>
+
+    <string name="title_inicio">Looney Tunes es una serie de dibujos animados de la compañía Warner Bros que comenzó su andadura oficialmente en 1930.</string>
+
+</resources>
