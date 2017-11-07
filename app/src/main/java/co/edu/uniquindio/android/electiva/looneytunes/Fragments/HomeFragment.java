@@ -1,6 +1,7 @@
 package co.edu.uniquindio.android.electiva.looneytunes.Fragments;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -15,6 +16,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import co.edu.uniquindio.android.electiva.looneytunes.R;
+import co.edu.uniquindio.android.electiva.looneytunes.util.Utilidades;
 
 /**
  * Fragmento
@@ -65,6 +67,11 @@ public class HomeFragment extends Fragment {
 
         int id = item.getItemId();
         if (id == R.id.cambiar_idioma) {
+            Utilidades.cambiarIdioma(getContext());
+            Intent intent = getActivity().getIntent();
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+            getActivity().finish();
+            startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
 

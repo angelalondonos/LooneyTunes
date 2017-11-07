@@ -1,5 +1,7 @@
 package co.edu.uniquindio.android.electiva.looneytunes.Activity;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -16,6 +18,7 @@ import co.edu.uniquindio.android.electiva.looneytunes.Fragments.HomeFragment;
 import co.edu.uniquindio.android.electiva.looneytunes.Fragments.LolasFragment;
 import co.edu.uniquindio.android.electiva.looneytunes.Fragments.LucasFragment;
 import co.edu.uniquindio.android.electiva.looneytunes.R;
+import co.edu.uniquindio.android.electiva.looneytunes.util.Utilidades;
 
 /**
  * Actividad principal
@@ -40,6 +43,7 @@ public class LooneyTunesActivity extends AppCompatActivity implements Navigation
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Utilidades.obtenerLenguaje(this);
         setContentView(R.layout.activity_looney_tunes);
 
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_nav_menu);
@@ -65,6 +69,13 @@ public class LooneyTunesActivity extends AppCompatActivity implements Navigation
         switch(item.getItemId()) {
             case android.R.id.home:
                 drawerLayout.openDrawer(GravityCompat.START);
+                return true;
+            case R.id.cambiar_idioma:
+                Utilidades.cambiarIdioma(this);
+                Intent intent = getIntent();
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                finish();
+                startActivity(intent);
                 return true;
         }
         return super.onOptionsItemSelected(item);
