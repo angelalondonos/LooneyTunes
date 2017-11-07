@@ -36,7 +36,13 @@ public class LolasFragment extends Fragment {
         // Required empty public constructor
     }
 
-
+    /**
+     * Método que inicializa el fragemtno
+     * @param inflater
+     * @param container
+     * @param savedInstanceState
+     * @return
+     */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

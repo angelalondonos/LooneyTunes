@@ -1,6 +1,5 @@
 package co.edu.uniquindio.android.electiva.looneytunes.Activity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -21,7 +20,7 @@ import co.edu.uniquindio.android.electiva.looneytunes.R;
 import co.edu.uniquindio.android.electiva.looneytunes.util.Utilidades;
 
 /**
- * Actividad principal
+ * Actividad principal Looney Tunes
  *
  * @author Angela Londoño
  * @author Rodrigo Ramirez
@@ -40,6 +39,11 @@ public class LooneyTunesActivity extends AppCompatActivity implements Navigation
      */
     public NavigationView navView;
 
+
+    /**
+     * Método que inicializa la actividad
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

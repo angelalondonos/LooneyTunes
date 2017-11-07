@@ -36,6 +36,13 @@ public class HomeFragment extends Fragment {
         // Required empty public constructor
     }
 
+    /**
+     * Método que inicializa el fragment
+     * @param inflater
+     * @param container
+     * @param savedInstanceState
+     * @return
+     */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
