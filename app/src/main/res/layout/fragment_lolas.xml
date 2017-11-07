@@ -2,26 +2,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="co.edu.uniquindio.android.electiva.looneytunes.Fragments.LolasFragment">
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/circle_image"
-        android:layout_width="229dp"
-        android:layout_height="163dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/lola"
-        app:civ_border_color="@color/colorPrimaryDark"
-        app:civ_border_width="1dp"/>
 
-
-    <Button
-        android:id="@+id/btn_ir_a_trailes_lola"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="14dp"
-        android:background="@color/colorPrimary"
-        android:text="@string/ver_video"
-        />
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle_image"
+            android:layout_width="233dp"
+            android:layout_height="183dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/lola"
+            app:civ_border_color="@color/colorPrimaryDark"
+            app:civ_border_width="1dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/titulo_de_detalle_personaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="7dp"
+                android:text="@string/Lolas"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn_ir_a_trailes_lola"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="14dp"
+                android:background="@color/colorAccent"
+                android:text="@string/ver_video"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/descripcion_de_detalle_personaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:text="@string/texto_detalle_lola" />
+
+    </ScrollView>
+
+
+
 </LinearLayout>

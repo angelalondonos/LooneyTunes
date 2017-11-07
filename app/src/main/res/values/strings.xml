@@ -18,7 +18,7 @@
        \n \nInicialmente era alegre y sus planes siempre le salían bien, pero paulatinamente se volvió más molesto, egoísta y cuando está con su eterno rival Bugs Bunny es mucho más malvado, antipático y siempre acaba perdiendo o saliendo dañado.</string>
     <string name="texto_detalle_elmer"> Elmer es un cazador, suele aparecer en muchos episodios de Bugs Bunny y del Pato Lucas. Siempre trata de atrapar a Bugs, y en ocasiones, también a Lucas, aunque siempre le terminan saliendo mal sus intentos. Elmer suele vestir un gorro, una camisa tipo cazador y carga consigo una escopeta con la que dispara siempre a Lucas cuando interviene con burlas y
         chistes para que éste no lo cace a él, sino a Bugs. Elmer dice que caza por deporte y no por comida.</string>
-    <string name="texto_detalle_lola"> LOLA</string>
+    <string name="texto_detalle_lola"> Lola Bunny es una coneja antropomórfica, tiene pelaje marrón, flequillo rubio y lleva una banda de color púrpura alrededor de ambas orejas, como una cola de caballo, tiene ojos de color aqua y mide 96 centímetros de altura. En Space Jam solo se le ve con dos trajes, una chaqueta negra, blusa blanca y short azul, y luego con el uniforme del Tune Squad, pero en El Show de los Looney Tunes usa distintas prendas, en general vestidos.</string>
     <string name="title_activity_elmer">ElmerActivity</string>
 
     <string name="title_inicio">Looney Tunes es una serie de dibujos animados de la compañía Warner Bros que comenzó su andadura oficialmente en 1930.</string>

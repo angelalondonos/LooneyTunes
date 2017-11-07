@@ -15,8 +15,9 @@
     <string name="texto_detalle_de_Lucas"> It is a black anthropomorphic duck with a beak and orange legs. It also has a small white collar that makes it look more formal.
        \n \nIn his first appearances he was much smaller than Porky, but his appearance quickly changed to become the size of Bugs.
        \n \nInitially he was happy and his plans always went well, but gradually he became more annoying, selfish and when he is with his eternal rival Bugs Bunny he is much more evil, unfriendly and always ends up losing or leaving damaged.</string>
-    <string name="texto_detalle_elmer"> ELMER</string>
-    <string name="texto_detalle_lola"> LOLA</string>
+    <string name="texto_detalle_elmer"> Elmer is a hunter, usually appears in many episodes of Bugs Bunny and Pato Lucas. Always tries to catch Bichos, and sometimes, also Lucas, but always end up going wrong their attempts. Elmer usually wears a hat, a hunter-like shirt and a load with a shotgun with which Lucas always shoots when he intervenes with jokes and jokes so that
+        he does not catch him, but Bugs. Elmer says that hunting for sport and not for food</string>
+    <string name="texto_detalle_lola"> Lola Bunny is an anthropomorphic rabbit, has brown fur, blond fringe and has a purple band around both ears, like a ponytail, has aqua eyes and is 96 centimeters tall. In Space Jam you only see him with two suits, a black jacket, white blouse and blue shorts, and then with the uniform of the Tune Squad, but in The Show of the Looney Tunes he wears different clothes, in general dresses.</string>
     <string name="title_activity_elmer">ElmerActivity</string>
 
     <string name="title_inicio">Looney Tunes is a series of cartoons of the Warner Bros. company that began its journey officially in 1930.</string>
