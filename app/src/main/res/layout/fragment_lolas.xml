@@ -1,8 +1,27 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="co.edu.uniquindio.android.electiva.looneytunes.Fragments.LolasFragment">
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_image"
+        android:layout_width="229dp"
+        android:layout_height="163dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/lola"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="1dp"/>
 
-</FrameLayout>
+
+    <Button
+        android:id="@+id/btn_ir_a_trailes_lola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="14dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/ver_video"
+        />
+</LinearLayout>

@@ -24,6 +24,9 @@ import co.edu.uniquindio.android.electiva.looneytunes.R;
  */
 public class LucasFragment extends Fragment {
 
+    /**
+     * Boton que permite ir a un video en Youtube
+     */
     private Button btnIrVideo;
 
     /**

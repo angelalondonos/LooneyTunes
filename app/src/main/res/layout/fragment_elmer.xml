@@ -44,7 +44,7 @@
 
     </ScrollView>
     <Button
-        android:id="@+id/btn_ir_a_trailes_lucas"
+        android:id="@+id/btn_ir_a_trailes_elmer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
