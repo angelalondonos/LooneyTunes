@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">Looney Tunes</string>
     <string name="Cabecera_del_menu">Cabecera del menu</string>
-    <string name="Lucas">LUCAS</string>
-    <string name="Elmer">ELMER</string>
-    <string name="Lolas">LOLAS</string>
+    <string name="Lucas">PATO LUCAS</string>
+    <string name="Elmer">ELMER GRUÑON</string>
+    <string name="Lolas">LOLA  BUNNY</string>
     <string name="dragon_Ball">Configuración</string>
     <string name="mas_opciones">Más opciones</string>
     <string name="pokemon">Salir</string>
     <string name="Cambiar_idioma">Cambiar Idioma</string>
-    <string name="bienvenida">BIENVENIDA/O</string>
+    <string name="bienvenida">BIENVENIDO</string>
 
 
 
@@ -16,7 +16,8 @@
     <string name="texto_detalle_de_Lucas"> Es un pato antropomorfico de color negro con pico y patas anaranjadas. Ademas cuenta con un pequeño cuello blanco que lo hace lucir más formal.
        \n \nEn sus primeras apariciones era mucho más pequeño que Porky, pero su aspecto cambio rápidamente hasta volverse del tamaño de Bugs.
        \n \nInicialmente era alegre y sus planes siempre le salían bien, pero paulatinamente se volvió más molesto, egoísta y cuando está con su eterno rival Bugs Bunny es mucho más malvado, antipático y siempre acaba perdiendo o saliendo dañado.</string>
-    <string name="texto_detalle_elmer"> ELMER</string>
+    <string name="texto_detalle_elmer"> Elmer es un cazador, suele aparecer en muchos episodios de Bugs Bunny y del Pato Lucas. Siempre trata de atrapar a Bugs, y en ocasiones, también a Lucas, aunque siempre le terminan saliendo mal sus intentos. Elmer suele vestir un gorro, una camisa tipo cazador y carga consigo una escopeta con la que dispara siempre a Lucas cuando interviene con burlas y
+        chistes para que éste no lo cace a él, sino a Bugs. Elmer dice que caza por deporte y no por comida.</string>
     <string name="texto_detalle_lola"> LOLA</string>
     <string name="title_activity_elmer">ElmerActivity</string>
 
