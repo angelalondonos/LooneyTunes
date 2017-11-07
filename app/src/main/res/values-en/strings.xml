@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Looney Tunes</string>
+    <string name="Cabecera_del_menu">Menu header</string>
+    <string name="Lucas">LUCAS</string>
+    <string name="Elmer">ELMER</string>
+    <string name="Lolas">LOLAS</string>
+    <string name="dragon_Ball">Settings</string>
+    <string name="mas_opciones">More options</string>
+    <string name="pokemon">Exit</string>
+    <string name="Cambiar_idioma">change language</string>
+    <string name="bienvenida">WELCOME</string>
+
+    <string name="ver_video">Show Video</string>
+    <string name="texto_detalle_de_Lucas"> It is a black anthropomorphic duck with a beak and orange legs. It also has a small white collar that makes it look more formal.
+       \n \nIn his first appearances he was much smaller than Porky, but his appearance quickly changed to become the size of Bugs.
+       \n \nInitially he was happy and his plans always went well, but gradually he became more annoying, selfish and when he is with his eternal rival Bugs Bunny he is much more evil, unfriendly and always ends up losing or leaving damaged.</string>
+    <string name="texto_detalle_elmer"> ELMER</string>
+    <string name="texto_detalle_lola"> LOLA</string>
+    <string name="title_activity_elmer">ElmerActivity</string>
+
+    <string name="title_inicio">Looney Tunes is a series of cartoons of the Warner Bros. company that began its journey officially in 1930.</string>
+
+</resources>
